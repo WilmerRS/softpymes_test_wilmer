@@ -90,7 +90,10 @@ los criterios que se evaluarán son los siguientes:
 # Información de importante
 Una vez terminada la prueba, debe crear un repositorio con su cuenta personal de git en (GitHub o GitLab o bitbucket) de manera público y,
 enviar un correo con el link del repositorio que contiene la prueba, tener en cuenta que solo se aceptara el envio de la prueba, de la manera
-mencionada anteriormente, el correo debe tener los siguientes datos:
+mencionada anteriormente, para validar su conocimiento en consumo de APIs, se requiere que envien el json de la collection que genera POSTMAN,
+importante tener en cuenta que este archivo debe ir en la raíz del proyecto que suba a su repositorio.
+
+El correo debe tener los siguientes datos:
 
 - Enviar la prueba al correo: lmelo@softpymes.com.co
 - Asunto: Test SoftPymes - Backend Python
