@@ -37,7 +37,7 @@ class ExampleController:
             response = {
                 'result': result,
                 'ok': True,
-                'message': 'Response OK, method get_index'
+                'message': 'Response OK, response with examples'
             }
             return response
         except ValueError as e:
@@ -52,7 +52,7 @@ class ExampleController:
 
     @staticmethod
     def create_example(id, request):
-        try:
+        # try:
             body = request.get_json()
             to_create = {
                 'id': id,
@@ -66,9 +66,9 @@ class ExampleController:
             response = {
                 'result': result,
                 'ok': True,
-                'message': 'Response OK, method get_index'
+                'message': 'Response OK, example created'
             }
             return response
-        except Exception as e:
-            print('Error: {er}'.format(er=e))
-            raise InternalServerError(e)
+        # except Exception as e:
+        #     print('Error: {er}'.format(er=e))
+        #     raise InternalServerError(e)
